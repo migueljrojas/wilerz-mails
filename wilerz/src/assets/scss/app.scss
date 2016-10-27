@@ -1,0 +1,126 @@
+@import 'settings';
+@import 'foundation-emails';
+
+$red: #fb233d;
+
+.slogan{
+  color:$red;
+  font-weight:bold;
+  font-size:13px !important;
+  text-align: center;
+  margin: 0 0 10px;
+  border-top:5px solid $red;
+  padding-top: 10px;
+  width:83%;
+}
+
+.red{
+  color:$red;
+}
+
+.card{
+  .head{
+    background: #666;
+    p,h6{color:#fff;}
+    h6{
+      margin: 5px 0 0;
+      font-weight:bold;
+      text-transform: uppercase;
+    }
+  }
+
+  .mid{
+    border-left:1px solid $global-font-color;
+    border-right:1px solid $global-font-color;
+    .item{
+      padding-top: 5px;
+      margin-bottom:5px;
+    }
+    .desc{
+      font-size:0.9em;
+      text-transform: uppercase;
+      color:$primary-color;
+    }
+    .divider{
+      width:70%;
+      display:block;
+      margin:auto;
+      border-bottom:1px solid $global-font-color + #666;
+    }
+  }
+
+  .bot{
+    border-left:1px solid $global-font-color;
+    border-right:1px solid $global-font-color;
+    border-bottom:1px solid $global-font-color;
+
+    .cta{
+      width:90%;
+    }
+  }
+
+  .icon{
+    display:inline-block;
+    margin-top: 15px;
+  }
+
+  .bullet{
+    margin-top:8px;
+  }
+}
+
+.auxiliary{
+  padding: 0 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.profile{
+  width:100%;
+  height:auto;
+  border-right:3px solid #fff;
+}
+
+.footer{
+  table.container{
+    background: #212121;
+  }
+  background: #212121;
+
+  .data{
+    font-size:0.9em;
+    margin-bottom:5px;
+    margin-left: 15px;
+    color:#ccc;
+    &.cargo{
+      font-weight:bold;
+    }
+
+    &.name{
+      font-size:1em;
+    }
+  }
+
+  .logo{
+    text-align: center;
+    img{
+      width:120px;
+      height:auto;
+      display:inline;
+      margin-top:20px;
+    }
+  }
+
+  .social{
+    text-align: center;
+    img{
+      width:20px;
+      display:inline;
+      margin-left: 10px;
+    }
+  }
+}
+
+.auxiliary{
+  font-size: 0.9em;
+}
